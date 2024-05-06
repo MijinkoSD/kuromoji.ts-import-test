@@ -1,3 +1,9 @@
+# kuromoji.ts import test
+
+[kuromoji.ts](https://github.com/MijinkoSD/kuromoji.ts)を正しく導入できるかを検証するためのリポジトリ。
+
+Browser バージョン（クライアントで処理する方）と Node.js バージョン（サーバーで処理する方）のサンプルを用意しています。
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
