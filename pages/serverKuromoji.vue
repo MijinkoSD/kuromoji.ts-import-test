@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
 import type { IpadicFormatterToken } from "kuromoji.ts/dist/util/IpadicFormatter";
 import type { TokenizeQuery } from "~/types/tokenizeQuery";
 
@@ -37,6 +36,8 @@ const onChangeInput = async () => {
 };
 
 onMounted(async () => {
+  // nextTick()を挟むことで以降にあるuseFetch()を正しく機能させる
+  await nextTick();
   await tokenize();
 });
 </script>

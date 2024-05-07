@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Tokenizer from "kuromoji.ts/dist/Tokenizer.js";
 import kuromoji from "kuromoji.ts/dist/kuromoji.js";
-import { ref, onMounted } from "vue";
 import type { IpadicFormatterToken } from "kuromoji.ts/dist/util/IpadicFormatter";
 
 const DIC_URL = "dict/";
