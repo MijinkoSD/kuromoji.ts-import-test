@@ -16,7 +16,7 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "kuromoji.ts": "github:MijinkoSD/kuromoji.ts#fix-for-running-in-vite",
+    "kuromoji.ts": "^1.0.0",
     "sass": "^1.76.0"
   }
 }

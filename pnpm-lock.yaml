@@ -22,8 +22,8 @@ importers:
         version: 4.3.2(vue@3.4.26)
     devDependencies:
       kuromoji.ts:
-        specifier: github:MijinkoSD/kuromoji.ts#fix-for-running-in-vite
-        version: https://codeload.github.com/MijinkoSD/kuromoji.ts/tar.gz/fe04e2b4ffed3d9f3d83165d15c5674bef1de25f
+        specifier: ^1.0.0
+        version: 1.0.0
       sass:
         specifier: ^1.76.0
         version: 1.76.0
@@ -2409,9 +2409,8 @@ packages:
   kolorist@1.8.0:
     resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
 
-  kuromoji.ts@https://codeload.github.com/MijinkoSD/kuromoji.ts/tar.gz/fe04e2b4ffed3d9f3d83165d15c5674bef1de25f:
-    resolution: {tarball: https://codeload.github.com/MijinkoSD/kuromoji.ts/tar.gz/fe04e2b4ffed3d9f3d83165d15c5674bef1de25f}
-    version: 1.0.0
+  kuromoji.ts@1.0.0:
+    resolution: {integrity: sha512-sOS81UYiR/WVKV+nZbOt3cyn3Q926wWmDgo27Qw/OIjgol9+UGMjdlV5lgdaTSWezl22JH2pICuFTXV2hG1jvQ==}
 
   launch-editor@2.6.1:
     resolution: {integrity: sha512-eB/uXmFVpY4zezmGp5XtU21kwo7GBbKB+EQ+UZeWtGb9yAM5xt/Evk+lYH3eRNAtId+ej4u7TYPFZ07w4s7rRw==}
@@ -6833,7 +6832,7 @@ snapshots:
 
   kolorist@1.8.0: {}
 
-  kuromoji.ts@https://codeload.github.com/MijinkoSD/kuromoji.ts/tar.gz/fe04e2b4ffed3d9f3d83165d15c5674bef1de25f:
+  kuromoji.ts@1.0.0:
     dependencies:
       '@types/node': 20.12.8
       doublearray.ts: 0.1.3
